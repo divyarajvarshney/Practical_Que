@@ -1,0 +1,2 @@
+This is the initial data that will be written to the file
+This is the new data that will be appended to the file

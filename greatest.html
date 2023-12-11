@@ -1,0 +1,42 @@
+<html>
+<head>
+    <tiltle></tiltle><br>
+    <script>
+        function myfunction(){
+            var a = prompt("Enter first number");
+            var b = prompt("Enter second number");
+            var c = prompt("Enter third number");
+
+            if(a>=b & a>=c){
+                alert("("+a+") is the largest number!!")
+            }
+            else if(b>=a & b>=c){
+                alert("("+b+") is the largest number!!")
+            }
+            else{
+                alert("("+c+") is the largest number!!")
+            }
+        }
+        </script>
+        <style>
+            .button{
+                padding:5px 10px 5px ;
+                color:orange;
+                background-color: black;
+                text-shadow: 5px;
+                font-weight:bolder;
+                border-radius: 12px;
+            }
+            h1{
+                font-size: 40px;
+                text-align: center;
+            }
+        </style>
+</head>
+<body>
+    <div>
+        <h1>Largest Number Among Three</h1>
+    <center><button class="button"  onclick="myfunction()">click to find largest number </button>
+        </center></div>
+</body>
+</html>

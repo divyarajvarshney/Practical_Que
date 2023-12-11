@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title></title>
+        <script>
+            function mylowda(){
+                var a = document.getElementById("t1").value;
+                var b = document.getElementById("t2").value;
+
+                if( a== "Web" & b == "Technology"){
+                    alert("Welcome!!!!!!!!!!!!");
+                }
+                else{
+                    alert("Login Failed!!!!!!!!");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form id="fo1">
+            <center><table border="15"></center>
+            <tr><td>LOGIN</td>
+            <td><input type="text" id="t1" required></td>
+            </tr>
+            <tr><td>PASSWORD</td>
+            <td><input type="password" id="t2" required></td>
+            </tr>
+            <tr><td>
+                submit
+            </td><td>
+                <button onclick="mylowda()">submit</button>
+            </td></tr>
+            </table>
+        </form>
+    </body>
+</html>
